@@ -20,13 +20,13 @@ Purpose:
   - Splits string into words
   - Removes common stopwords.
 Input: String of text.
-Output: List of processed words.
+Output: List of processed words.<br>
 Stopwords: ["the", "and", "in", "is", "to", "of"]
 
 #### 2. word_frequency(text)
 
 Purpose: 
-  - Counts the frequency of each word in the processed text.
+  - Counts the frequency of each word in the processed text.<br>
 Input: String of text.
 Output: Dictionary with words as keys and their frequencies as values.
 Depends on: preprocess_text
@@ -34,7 +34,7 @@ Depends on: preprocess_text
 #### 3. estimate_sentiment(text)
 
 Purpose: 
-  - Estimates sentiment based on counts of positive and negative words.
+  - Estimates sentiment based on counts of positive and negative words.<br>
 Input: String of text.
 Output: String: "positive", "negative", or "neutral".
 Positive Words: ["good", "happy", "excellent", "great", "wonderful]
