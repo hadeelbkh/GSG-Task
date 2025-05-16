@@ -43,8 +43,9 @@ Output: String: "positive", "negative", or "neutral".<br>
 Positive Words: ["good", "happy", "excellent", "great", "wonderful]<br>
 Negative Words: ["bad", "sad", "terrible", "horrible", "awful"]<br>
 Logic:<br>
-Positive count > Negative count: Returns "positive"<br>
-Negative count > Positive count: Returns "negative"<br>
-Otherwise: Returns "neutral"<br>
+- Positive count > Negative count: Returns "positive"<br>
+- Negative count > Positive count: Returns "negative"<br>
+- Otherwise: Returns "neutral"<br>
+
 Depends on: preprocess_text<br>
 
