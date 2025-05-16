@@ -19,6 +19,7 @@ Purpose:
   - Removes punctuation
   - Splits string into words
   - Removes common stopwords.<br>
+
 Input: String of text.<br>
 Output: List of processed words.<br>
 Stopwords: ["the", "and", "in", "is", "to", "of"]
@@ -27,6 +28,7 @@ Stopwords: ["the", "and", "in", "is", "to", "of"]
 
 Purpose: 
   - Counts the frequency of each word in the processed text.<br>
+
 Input: String of text.<br>
 Output: Dictionary with words as keys and their frequencies as values.<br>
 Depends on: preprocess_text
@@ -35,6 +37,7 @@ Depends on: preprocess_text
 
 Purpose: 
   - Estimates sentiment based on counts of positive and negative words.<br>
+
 Input: String of text.<br>
 Output: String: "positive", "negative", or "neutral".<br>
 Positive Words: ["good", "happy", "excellent", "great", "wonderful]<br>
